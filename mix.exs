@@ -21,7 +21,7 @@ defmodule ExAws.Dynamo.Mixfile do
 
   defp package do
     [
-      description: "IMPORTANT!!! This package is a fork of https://hex.pm/packages/ex_aws_dynamo - it supports new features of DynamoDB, such as different billing modes - we're publishing this for use in our own https://hex.pm/packages/ecto_adapters_dynamodb. If you need to use ex_aws_dynamo in your project, we highly recommend that you use the original Hex package, as this package may not be maintained and may be unexpectedly deleted in the future.",
+      description: "IMPORTANT!!! This package is a fork of https://hex.pm/packages/ex_aws_dynamo. If you need to use ex_aws_dynamo in your project, we highly recommend that you use the original Hex package, as this package may be unexpectedly deleted in the future.",
       files: ["lib", "config", "mix.exs", "README*"],
       licenses: ["MIT"],
       links: %{github: @url}
