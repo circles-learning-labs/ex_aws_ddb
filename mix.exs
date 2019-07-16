@@ -2,8 +2,7 @@ defmodule ExAws.Dynamo.Mixfile do
   use Mix.Project
 
   @version "2.1.0"
-  @service "ddb"
-  @url "https://github.com/circles-learning-labs/ex_aws_#{@service}"
+  @url "https://github.com/circles-learning-labs/ex_aws_ddb"
   @name "ExAws.DDB"
 
   def project do
